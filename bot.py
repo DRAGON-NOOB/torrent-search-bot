@@ -10,7 +10,7 @@ from commands.buttonhandler import button
 def start(bot, update):
     chat_id = update.message.chat.id
     keyboard = [[
-        InlineKeyboardButton('Support Chat',
+        InlineKeyboardButton('Support channel',
                              url=config.supportChatUrl)
     ],
         [
